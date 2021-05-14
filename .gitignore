@@ -6,6 +6,7 @@ __pycache__
 db.sqlite3
 media
 local_settings.py
+step_notes.txt
 
 # Backup files #
 *.bak
