@@ -5,13 +5,13 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="">
+    <div>
         <Header />
-        <main>
-            <Container>
-                <h1>Welsome</h1>
-            </Container>
-        </main>
+            <main className="py-3">
+                <Container>
+                    <p>My app here</p>
+                </Container>
+            </main>
         <Footer />
     </div>
   );
