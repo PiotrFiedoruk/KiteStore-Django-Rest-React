@@ -9,7 +9,7 @@ function Header() {
                 <Container>
                   <LinkContainer to='/'>
                       <Navbar.Brand>
-                           <img alt="" src="../public/StoreLogo192.png" width="30" height="30"
+                           <img alt="" src="/StoreLogo192.png" width="30" height="30"
                            className="d-inline-block align-top"/>{' '}
                                 Kite Store
                       </Navbar.Brand>
