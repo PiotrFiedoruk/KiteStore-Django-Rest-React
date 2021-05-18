@@ -20,7 +20,14 @@ export const basketReducer = (state={basketItems:[]}, action) => {
                     basketItems: [...state.basketItems, item]
                 }
             }
-            
+
+        case BASKET_REMOVE_ITEM:
+            return{
+                ...state,
+                //filter out all the products that does not match id
+                basketItems:state.basketItems.filter(x => x.product !== action.payload)
+            }
+
         default:
             return state
     }

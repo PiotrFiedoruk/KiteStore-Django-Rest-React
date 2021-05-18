@@ -12,6 +12,15 @@ const reducer = combineReducers({
     basket: basketReducer,
 })
 
+// get basket items, return empty array if none
+const basketItemsFromStorage = localStorage.getItem('basketItems') ?
+    JSON.parse(localStorage.getItem('basketItems')) : []
+
+const intialState = {
+    basket: { basketItems: basketItemsFromStorage }
+}
+
+
 const initialState = {}
 
 const middleware = [thunk]
