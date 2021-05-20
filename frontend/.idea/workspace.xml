@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128f98d3-35b9-471a-b815-e01c9e8c2733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/userActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/userConstants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/userReducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/formContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/productActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/productActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/userActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/userActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/LoginScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/LoginScreen.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +106,7 @@
       <workItem from="1621106646418" duration="407000" />
       <workItem from="1621236168000" duration="16607000" />
       <workItem from="1621413180385" duration="12171000" />
-      <workItem from="1621470005235" duration="9647000" />
+      <workItem from="1621470005235" duration="11827000" />
     </task>
     <servers />
   </component>

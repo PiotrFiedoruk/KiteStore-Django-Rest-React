@@ -19,8 +19,8 @@ export const login = (email, password) => async (dispatch) => {
         }
         //make api request and get data
         const {data} = await axios.post(
-            'api/users/login/'
-        {'username':email, 'password': password }
+            'api/users/login/',
+            {'username':email, 'password': password }
         )
         dispatch({
             type:USER_LOGIN_SUCCESS,

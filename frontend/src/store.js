@@ -20,13 +20,10 @@ const basketItemsFromStorage = localStorage.getItem('basketItems') ?
 const userInfoFromStorage = localStorage.getItem('userInfo') ?
     JSON.parse(localStorage.getItem('userInfo')) : null
 
-const intialState = {
-    basket: { basketItems: basketItemsFromStorage }
-    userLogin: { userInfo: userInfoFromStorage }
+const initialState = {
+    basket: { basketItems: basketItemsFromStorage },
+    userLogin: { userInfo: userInfoFromStorage },
 }
-
-
-const initialState = {}
 
 const middleware = [thunk]
 
