@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="128f98d3-35b9-471a-b815-e01c9e8c2733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../backend/base/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/backend/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/base/urls/order_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/base/urls/product_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/base/urls/user_urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/base/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/base/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/base/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/base/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/base/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/base/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/base/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/base/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/base/views/order_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/base/views/order_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/base/views/product_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/base/views/product_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/base/views/user_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../backend/base/views/user_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +109,7 @@
       <workItem from="1621106646418" duration="407000" />
       <workItem from="1621236168000" duration="16607000" />
       <workItem from="1621413180385" duration="12171000" />
-      <workItem from="1621470005235" duration="6503000" />
+      <workItem from="1621470005235" duration="6694000" />
     </task>
     <servers />
   </component>
