@@ -7,6 +7,10 @@ import {USER_LOGIN_REQUEST,
         USER_REGISTER_REQUEST,
         USER_REGISTER_SUCCESS,
         USER_REGISTER_FAIL,
+
+        USER_DETAILS_REQUEST,
+        USER_DETAILS_SUCCESS,
+        USER_DETAILS_FAIL,
 }
         from '../constants/userConstants'
 import axios from 'axios'
@@ -88,6 +92,50 @@ export const register = (name, email, password) => async (dispatch) => {
     }catch(error){
         dispatch({
             type: USER_REGISTER_FAIL,
+             //displays error
+            payload: error.response && error.response.data.detail
+                ? error.response.data.detail
+                :error.message,
+        })
+
+    }
+}
+
+export const getUserDetails = (id) => async (dispatch, getState) => {
+    try{
+        dispatch({
+            type:USER_DETAILS_REQUEST
+        })
+        
+        const {
+            userLogin: {userInfo}
+        } =getState()
+        
+        const config = {
+            headers:{
+                'Content-type':'application/json',
+                // send token
+                Authorization: `Bearer ${userInfo.token}`
+            }
+        }
+        //make api request and get data
+        const {data} = await axios.get(
+            `api/users/${id}/`, config
+        )
+        dispatch({
+            type:USER_DETAILS_SUCCESS,
+            payload:data,
+        })
+        // login user autmoaticaly after registering
+        dispatch({
+            type:USER_DETAILS_SUCCESS,
+            payload:data,
+        })
+
+
+    }catch(error){
+        dispatch({
+            type: USER_DETAILS_FAIL,
              //displays error
             payload: error.response && error.response.data.detail
                 ? error.response.data.detail

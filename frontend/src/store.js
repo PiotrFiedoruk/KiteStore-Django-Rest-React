@@ -3,7 +3,7 @@ import thunk from 'redux-thunk'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import {productListReducer, productDetailsReducer} from './reducers/productReducers'
 import {basketReducer} from './reducers/basketReducers'
-import { userLoginReducer, userRegisterReducer } from './reducers/userReducers'
+import { userLoginReducer, userRegisterReducer, userDetailsReducer } from './reducers/userReducers'
 
 
 const reducer = combineReducers({
@@ -12,6 +12,7 @@ const reducer = combineReducers({
     basket: basketReducer,
     userLogin: userLoginReducer,
     userRegister: userRegisterReducer,
+    userDetails: userDetailsReducer,
 })
 
 // get basket items, return empty array if none
